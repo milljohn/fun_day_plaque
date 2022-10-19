@@ -23,7 +23,7 @@
 <layer number="13" name="Route13" color="21" fill="1" visible="no" active="no"/>
 <layer number="14" name="Route14" color="22" fill="1" visible="no" active="no"/>
 <layer number="15" name="Route15" color="23" fill="1" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
@@ -2221,7 +2221,6 @@ design rules under a new name.</description>
 <contactref element="ISP1" pad="2"/>
 <wire x1="3.81" y1="19.812" x2="6.35" y2="22.352" width="0.3048" layer="1"/>
 <wire x1="6.35" y1="22.352" x2="6.35" y2="23.15" width="0.3048" layer="1"/>
-<wire x1="11.13135" y1="21.6876" x2="9.66895" y2="23.15" width="0.3048" layer="1"/>
 <wire x1="6.35" y1="5.37" x2="4.028" y2="5.37" width="0.3048" layer="1"/>
 <wire x1="4.028" y1="5.37" x2="3.81" y2="5.588" width="0.3048" layer="1"/>
 <wire x1="64.77" y1="6.64" x2="62.702" y2="6.64" width="0.3048" layer="1"/>
@@ -2275,10 +2274,10 @@ design rules under a new name.</description>
 <wire x1="11.35" y1="5.37" x2="11.64" y2="5.08" width="0.3048" layer="1"/>
 <wire x1="11.64" y1="5.08" x2="13.97" y2="5.08" width="0.3048" layer="1"/>
 <via x="13.97" y="5.08" extent="1-16" drill="0.5"/>
-<wire x1="13.97" y1="5.08" x2="59.69" y2="5.08" width="0.3048" layer="16"/>
-<wire x1="59.69" y1="5.08" x2="60.96" y2="3.81" width="0.3048" layer="16"/>
-<via x="60.96" y="3.81" extent="1-16" drill="0.5"/>
-<wire x1="60.96" y1="3.81" x2="64.4" y2="3.81" width="0.3048" layer="1"/>
+<wire x1="13.97" y1="5.08" x2="60.96" y2="5.08" width="0.3048" layer="16"/>
+<wire x1="60.96" y1="5.08" x2="62.23" y2="3.81" width="0.3048" layer="16"/>
+<via x="62.23" y="3.81" extent="1-16" drill="0.5"/>
+<wire x1="62.23" y1="3.81" x2="64.4" y2="3.81" width="0.3048" layer="1"/>
 <wire x1="64.4" y1="3.81" x2="64.77" y2="3.44" width="0.3048" layer="1"/>
 </signal>
 <signal name="N$9">
@@ -2321,9 +2320,9 @@ design rules under a new name.</description>
 <wire x1="31.094775" y1="5.5372" x2="44.45" y2="5.5372" width="0.3048" layer="16"/>
 <wire x1="29.523975" y1="7.108" x2="31.094775" y2="5.5372" width="0.3048" layer="16"/>
 <wire x1="44.45" y1="5.5372" x2="50.8" y2="11.8872" width="0.3048" layer="16"/>
-<wire x1="50.8" y1="11.8872" x2="50.8" y2="15.24" width="0.3048" layer="16"/>
+<wire x1="50.8" y1="11.8872" x2="50.8" y2="13.97" width="0.3048" layer="16"/>
 <wire x1="25.4" y1="10.16" x2="28.452" y2="7.108" width="0.3048" layer="16"/>
-<wire x1="50.8" y1="15.24" x2="50.8" y2="13.97" width="0" layer="19" extent="16-16"/>
+<wire x1="50.8" y1="15.24" x2="50.8" y2="13.97" width="0.1524" layer="16"/>
 </signal>
 <signal name="RST">
 <contactref element="ISP1" pad="5"/>
@@ -2350,7 +2349,6 @@ design rules under a new name.</description>
 <signal name="MISO">
 <contactref element="ISP1" pad="1"/>
 <contactref element="IC1" pad="12"/>
-<wire x1="12.16" y1="12.2" x2="12.2052" y2="12.2452" width="0.3048" layer="1"/>
 <wire x1="12.16" y1="12.2" x2="14.47" y2="12.2" width="0.3048" layer="1"/>
 <wire x1="14.47" y1="12.2" x2="15.24" y2="11.43" width="0.3048" layer="1"/>
 <via x="15.24" y="11.43" extent="1-16" drill="0.5"/>
